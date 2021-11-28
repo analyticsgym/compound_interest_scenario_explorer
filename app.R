@@ -9,7 +9,8 @@ library(reactable)
 
 ui <- fluidPage(
       titlePanel("Compound Interest Scenario Explorer"),
-      p("Code on Github"),
+      p("Author: Brian Moore (@analyticsanalyst)"),
+      HTML("<p><a href='https://github.com/analyticsanalyst/compound_interest_scenario_explorer/blob/main/app.R'>Code on Github</a></p>"),
       br(),
       fluidRow(
         column(width = 8,
