@@ -9,8 +9,8 @@ library(reactable)
 
 ui <- fluidPage(
       titlePanel("Compound Interest Scenario Explorer"),
-      p("Author: Brian Moore (@analyticsanalyst)"),
-      HTML("<p><a href='https://github.com/analyticsanalyst/compound_interest_scenario_explorer/blob/main/app.R'>Code on Github</a></p>"),
+      p("Author: Brian Moore (@analyticsgym)"),
+      HTML("<p><a href='https://github.com/analyticsgym/compound_interest_scenario_explorer/blob/main/app.R'>Code on Github</a></p>"),
       br(),
       fluidRow(
         column(width = 8,
@@ -51,15 +51,15 @@ ui <- fluidPage(
       ),
       fluidRow(
         column(width = 4,
-               sliderInput("ir1", "Scenario 1: Annual interest rate.", 
+               sliderInput("ir1", "Scenario 1: Annual Interest Rate", 
                            min = 1, max = 30, post  = " %", value = 1)),
         
         column(width = 4,
-               sliderInput("ir2", "Scenario 2: Annual interest rate.", 
+               sliderInput("ir2", "Scenario 2: Annual Interest Rate", 
                            min = 1, max = 30, post  = " %", value = 8)),
         
         column(width = 4, 
-               sliderInput("ir3", "Scenario 3: Annual interest rate.", 
+               sliderInput("ir3", "Scenario 3: Annual Interest Rate", 
                            min = 1, max = 30, post  = " %", value = 8))
       ),
       fluidRow(
